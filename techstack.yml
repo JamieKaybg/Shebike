@@ -1,0 +1,32 @@
+repo_name: JamieKaybg/Shebike
+report_id: 49bfe7a0c5998bf179d780e30f812fa8
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:58:45+00:00'
+requested_by: JamieKaybg
+provider: github
+branch: main
+detected_tools_count: 2
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/JamieKaybg/Shebike
+  detection_source: Repo Metadata
+- name: GitLab CI
+  description: GitLab integrated CI to test, build and deploy your code
+  website_url: https://about.gitlab.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/5545/9pAwHBR0.jpg
+  detection_source_url: https://github.com/JamieKaybg/Shebike/blob/main/gitlab-ci.yml
+  detection_source: gitlab-ci.yml
+  last_updated_by: Jamie Kay
+  last_updated_on: 2023-04-07 15:48:25.000000000 Z
